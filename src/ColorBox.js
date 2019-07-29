@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import "./ColorBox.css";
-import { thisExpression } from "@babel/types";
 
 class ColorBox extends Component {
   constructor(props) {
@@ -35,7 +34,7 @@ class ColorBox extends Component {
           />
           <div className={`copy-msg ${copied && "show"}`}>
             <h1>copied!</h1>
-            <p>{this.props.background}</p>
+            <p>{background}</p>
           </div>
           <div className='copy-container'>
             <div className='box-content'>
