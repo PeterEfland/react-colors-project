@@ -10,9 +10,6 @@ const styles = {
     fontSize: "2rem"
   },
   colorNameInput: {
-    width: "100%"
-  },
-  colorNameInput: {
     width: "100%",
     height: "70px"
   }
